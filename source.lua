@@ -30,7 +30,7 @@ local discordId2 = 0 --put 0 if you dont want a second user
 
 --nothing else u need to modify
 --this works on all executors, i killed the organization because why would you need it
-
+rconsoleprint("Webhook Sender | Running")
 local Lib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/BoredStuff2/notify-lib/main/lib'),true))()
 Lib.prompt('Script Loaded', 'Webhooks will be sent every '..int_time..' seconds', 6)
 warn("Value Logger Loaded </> Created by Hazeldox")
